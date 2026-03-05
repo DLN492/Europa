@@ -109,6 +109,7 @@ NeuroCore-Europa/
 ├── LICENSE                # Proprietary license
 └── examples/              # Usage examples
 
+Note: The Core Invariant Engine (0.55) and proprietary weighting algorithms are hosted in restricted-access repositories for Intellectual Property protection.
 ---
 
 ## Development Status
