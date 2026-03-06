@@ -122,7 +122,7 @@ This repository provides the computational framework and pipeline infrastructure
 
 ## Name Origin
 
-The framework "Europa" is named after Jupiter’s moon, reflecting its role as an observational computational layer within the NeuroCore™ / 04920∩ architecture.
+The framework "Europa" is named after Jupiter’s moon, reflecting its role as an observational computational layer within the NeuroCore™ 049200 architecture.
 
 Developed and validated within the Project Jupyter environment, Europa operates as an adaptive signature system designed to observe, quantify, and characterize latent functional regimes across heterogeneous datasets.
 
