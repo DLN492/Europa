@@ -1,25 +1,34 @@
 # Europa – Adaptive Signature System v4.0
 
-## Definizione Ontologica
-**Europa** è un sistema adattivo multi-dataset progettato per **quantificare e rappresentare la resilienza funzionale dei sistemi complessi**.
+## 📘 Ontological Definition
 
-L’ontologia di Europa definisce concetti chiave e relazioni tra:
-- **Regime funzionale latente (λ(t))** – evoluzione temporale dei parametri di stato del sistema.
-- **Metriche universali** – FS, DV, FR, MI.
-- **Signature adattiva** – aggregazione ponderata delle metriche per generare una firma unica e comparabile.
-- **Dataset e pipeline** – rappresentazione astratta di qualsiasi fonte di dati e procedura di estrazione di λ(t), rendendo il framework pipeline-agnostic.
+**Europa** is an adaptive multi-dataset system designed to **quantify and represent the functional resilience** of complex dynamical systems. 
 
-L’ontologia serve come **linguaggio comune e struttura concettuale**, permettendo formalizzazione, comparazione e condivisione dei risultati senza dipendere da implementazioni specifiche.
+The Europa ontology defines the core concepts and the relationships between:
 
-## Funzionalità Principali
-1. Calcolo multi-dataset delle metriche universali.
-2. Motore adattivo che aggiorna automaticamente i pesi delle metriche per generare una signature stabile e comparabile.
-3. Signature adattiva con monitoraggio della convergenza.
-4. Generazione automatica di report PDF/HTML.
-5. Plug & Play: facile aggiunta di nuovi dataset.
+* **Latent Functional Regime ($\lambda(t)$):** The temporal evolution of the system's state parameters.
+* **Universal Metrics:** `FS`, `DV`, `FR`, `MI`.
+* **Adaptive Signature:** A weighted aggregation of metrics used to generate a unique, comparable system fingerprint.
+* **Datasets & Pipelines:** An abstract representation of any data source or extraction procedure for $\lambda(t)$, ensuring the framework remains **pipeline-agnostic**.
 
-## Repository
-Contiene:
-- Notebook Jupyter con pipeline v4.0 di Europa
-- Esempi multi-dataset
-- Report PDF/HTML generati automaticamente
+> [!IMPORTANT]
+> This ontology serves as a **formal language and conceptual scaffold**, enabling the formalization, comparison, and cross-study sharing of results, independent of specific software implementations.
+
+---
+
+## 🚀 Core Functionalities
+
+- [x] **Multi-dataset calculation** of universal metrics.
+- [x] **Adaptive Engine:** Automatically updates metric weights to generate a stable and standardized signature.
+- [x] **Adaptive Signature Monitoring:** Real-time convergence analysis.
+- [x] **Automated Reporting:** Native PDF/HTML report generation.
+- [x] **Plug & Play Architecture:** Seamless integration of new datasets.
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── 📓 Notebooks/          # Europa v4.0 core pipeline (Jupyter)
+├── 📊 Examples/           # Multi-dataset validation test-cases
+└── 📄 Reports/            # Automated PDF/HTML documentation
