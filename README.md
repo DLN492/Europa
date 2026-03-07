@@ -35,7 +35,25 @@ Supported modalities include:
 * Other physiological time-series systems
 
 ---
+## Core Concept
 
+### Core Transformation
+
+The Europa Framework operates through a transformation of empirical data
+into a structured feature representation:
+
+X → Φ(X)
+
+where:
+
+X  : empirical signals (e.g., EEG, fMRI)
+
+Φ  : transformation mapping the data into regime-signature features.
+
+The resulting representation defines a feature space encoding
+the structural signatures of functional regimes.
+
+---
 ## Core Capabilities
 
 Europa enables:
