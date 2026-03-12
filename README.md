@@ -1,6 +1,6 @@
 # Europa – Adaptive Signature System v4.0
 
-**NeuroCore™ 049200 Framework**  
+**NeuroCore™ 049200**  
 © 2026 Davide Luca Nicoletti
 
 ---
