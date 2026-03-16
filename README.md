@@ -138,10 +138,5 @@ The FS, DV, FR, and MI metrics are currently under active development and valida
 
 This repository provides the computational framework and pipeline infrastructure, not finalized physiological or clinical interpretations.
 
-## Name Origin
-
-The framework "Europa" is named after Jupiter’s moon, reflecting its role as an observational computational layer within the NeuroCore™ 049200 architecture.
-
-Developed and validated within the Project Jupyter environment, Europa operates as an adaptive signature system designed to observe, quantify, and characterize latent functional regimes across heterogeneous datasets.
-
-The name reflects its architectural position as a satellite computational layer supporting analysis, reproducibility, and cross-system comparability.
+## Authenticity & Intellectual Property. 
+Statement: "This ecosystem is protected by a deterministic digital signature. Current build SHA-256: [6d59bd8d8f4c89ffb4d140f5b89c664798701b4cac8ae373aaaa71540a459116]."
