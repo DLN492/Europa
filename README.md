@@ -104,39 +104,4 @@ Europa defines a formal computational structure based on:
 
 This structure enables reproducibility, formalization, and cross-system comparison.
 
----
 
-## Repository Objective
-
-This repository serves to:
-
-* Establish authorship of the NeuroCore™ 049200 architecture
-* Provide a reproducible computational framework
-* Enable future scientific validation and metric refinement
-* Support integration across heterogeneous datasets
-
----
-
-## Repository Structure
-
-NeuroCore-Europa/
-
-├── europa_pipeline.py     # Main processing pipeline
-├── metrics.py             # Metric computation framework
-├── README.md              # Documentation
-├── LICENSE                # Proprietary license
-└── examples/              # Usage examples
-
-Note: The Core Invariant Engine (0.55) and proprietary weighting algorithms are hosted in restricted-access repositories for Intellectual Property protection.
----
-
-## Development Status
-
-**Important Notice**
-
-The FS, DV, FR, and MI metrics are currently under active development and validation.
-
-This repository provides the computational framework and pipeline infrastructure, not finalized physiological or clinical interpretations.
-
-## Authenticity & Intellectual Property. 
-Statement: "This ecosystem is protected by a deterministic digital signature. Current build SHA-256: [6d59bd8d8f4c89ffb4d140f5b89c664798701b4cac8ae373aaaa71540a459116]."
