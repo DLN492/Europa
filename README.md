@@ -22,10 +22,6 @@ Davide Luca Nicoletti, Europa – Adaptive Signature System, 2026
 
 ---
 
-<p align="center">
-  <img src="6185C53B-CA8D-43C0-BFFA-92D89F055399.gif" width="500">
-</p>
-
 ## Overview
 
 **Europa** is a computational framework within the **NeuroCore™ architecture**, designed to analyze and quantify functional regimes in neurophysiological signals.
@@ -41,6 +37,10 @@ Supported modalities include:
 
 ---
 ## Core Concept
+
+<p align="center">
+  <img src="6185C53B-CA8D-43C0-BFFA-92D89F055399.gif" width="500">
+</p>
 
 ### Core Transformation
 
