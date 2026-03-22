@@ -19,7 +19,12 @@ BSD 3-Clause allows use, modification, and distribution, including commercial us
 If you use this repository for research or publication, please cite:
 
 Davide Luca Nicoletti, Europa – Adaptive Signature System, 2026
+
 ---
+
+<p align="center">
+  <img src="6185C53B-CA8D-43C0-BFFA-92D89F055399.gif" width="500">
+</p>
 
 ## Overview
 
