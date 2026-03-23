@@ -5,37 +5,6 @@
 
 ---
 
-## License
-
-This repository is licensed under the **BSD 3-Clause License**.  
-See `LICENSE.md` for full details.
-
-BSD 3-Clause allows use, modification, and distribution, including commercial use.
-
----
-
-## Citation
-
-If you use this repository for research or publication, please cite:
-
-Davide Luca Nicoletti, Europa – Adaptive Signature System, 2026
-
----
-
-## Overview
-
-**Europa** is a computational framework within the **NeuroCore™ architecture**, designed to analyze and quantify functional regimes in neurophysiological signals.
-
-It provides a **pipeline-agnostic computational layer** for multi-dataset integration, adaptive metric aggregation, and reproducible functional state analysis.
-
-Supported modalities include:
-
-* EEG
-* iEEG
-* fNIRS
-* Other physiological time-series systems
-
----
 ## Core Concept
 
 <p align="center">
@@ -88,7 +57,7 @@ The adaptive engine automatically updates metric weights to improve:
 * Stability
 * Cross-dataset comparability
 * Temporal convergence
-
+  
 ---
 
 ## Ontological Definition
