@@ -93,3 +93,34 @@ else:
 
 st.divider()
 st.markdown("<center style='font-size:10px; color:#ccc; letter-spacing:2px;'>EUROPA UNIFIED | HDE • NEUROCORE • ASHI • LAMBDA</center>", unsafe_allow_html=True)
+
+st.markdown("""
+    <style>
+    .repo-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+        color: #ffffff !important;
+        padding: 12px 24px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease;
+        border: 1px solid #000000;
+    }
+    .repo-button:hover {
+        background-color: #ffffff;
+        color: #000000 !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    </style>
+    <div style="text-align: center; padding: 40px 0;">
+        <a href="https://europa-9nfeavhieorjxhrpylm6sb.streamlit.app/" target="_blank" class="repo-button">
+            ACCESS EUROPA™ REPOSITORY
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
