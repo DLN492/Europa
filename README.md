@@ -21,21 +21,6 @@
 
 **Europa** is a computational platform designed for the characterization of **complex biological systems** through the extraction of invariant functional signatures. The framework maps stochastic empirical signals $X$ into a feature manifold $\Phi(X)$, enabling the identification of trajectories within the state space $\lambda(t)$.
 
-# Neurodynamical Regime Intelligence 
-(IT)
-Integrando i motori proprietari NeuroCore™, ASHI Core e HDE, il framework trasforma flussi di dati stocastici (EEG/fNIRS) in traiettorie deterministiche all'interno di un manifold funzionale.
-
-Identificazione dell'ancora omeostatica attraverso l'operatore $L$ ($\phi^* \approx 0.55$).
-
-Predictive Lead Time: Finestra di allerta precoce fino a 18.5 minuti per eventi critici (Epilessia/Parkinson).
-
-Cross-Dataset Validation: 
-Architettura normalizzata testata su 793 dataset globali (EU, USA, India, Tanzania).
-
-Edge-Ready Latency: Elaborazione real-time con latenza inferiore a 22ms.
-
-Scientific Focus: Europa formalizza la rottura della simmetria nei sistemi dinamici, offrendo una metrica universale della stabilità neurale indipendente dall'hardware di acquisizione.
-
 ---
 
 ## Physical Formalism & Core Transformation
@@ -97,9 +82,30 @@ Europa formalizes the study of complex systems based on four pillars:
 
 ## Latest Release: v4.0-Core-Validation
 
+
+
 * **State Trajectory Optimization:** Improved convergence algorithms for $\lambda(t)$ tracking.
 * **Information Theory Refactoring:** Enhanced weighting engine for improved **transfer entropy** management.
 * **Manifold Visualization:** New tools for high-dimensional state projection and phase-space plotting.
+
+ ---
+ 
+**(IT)**
+
+## Neurodynamical Regime Intelligence
+
+Integrando i motori proprietari NeuroCore™, ASHI Core e HDE, il framework trasforma flussi di dati stocastici (EEG/fNIRS) in traiettorie deterministiche all'interno di un manifold funzionale.
+
+Identificazione dell'ancora omeostatica attraverso l'operatore $L$ ($\phi^* \approx 0.55$).
+
+Predictive Lead Time: Finestra di allerta precoce fino a 18.5 minuti per eventi critici (Epilessia/Parkinson).
+
+Cross-Dataset Validation: 
+Architettura normalizzata testata su 793 dataset globali (EU, USA, India, Tanzania).
+
+Edge-Ready Latency: Elaborazione real-time con latenza inferiore a 22ms.
+
+Scientific Focus: Europa formalizza la rottura della simmetria nei sistemi dinamici, offrendo una metrica universale della stabilità neurale indipendente dall'hardware di acquisizione.
 
 ---
 
