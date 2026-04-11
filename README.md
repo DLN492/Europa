@@ -17,6 +17,8 @@
 
 ---
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://europa-9nfeavhieorjxhrpylm6sb.streamlit.app/)
+
 **Europa** is a computational platform designed for the characterization of **complex biological systems** through the extraction of invariant functional signatures. The framework maps stochastic empirical signals $X$ into a feature manifold $\Phi(X)$, enabling the identification of trajectories within the state space $\lambda(t)$.
 
 ---
