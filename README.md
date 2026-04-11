@@ -101,7 +101,7 @@ Identificazione dell'ancora omeostatica attraverso l'operatore $L$ ($\phi^* \app
 Predictive Lead Time: Finestra di allerta precoce fino a 18.5 minuti per eventi critici (Epilessia/Parkinson).
 
 Cross-Dataset Validation: 
-Architettura normalizzata testata su 793 dataset globali (EU, USA, India, Tanzania).
+Architettura normalizzata testata su 793 file (dataset EU, USA, India, Tanzania).
 
 Edge-Ready Latency: Elaborazione real-time con latenza inferiore a 22ms.
 
