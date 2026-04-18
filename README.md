@@ -73,7 +73,7 @@ The adaptive engine optimizes metric weights to maximize **temporal convergence*
 
 Europa formalizes the study of complex systems based on four pillars:
 
-1.  **Latent Functional Regime ($\lambda(t)$):** A time-dependent representation of system state dynamics.
+1.  **Latent Functional Regime (lambda(t):** A time-dependent representation of system state dynamics.
 2.  **Universal Metrics:** Pipeline-independent quantitative descriptors (physical observables).
 3.  **Adaptive Signature:** A weighted aggregation representing the functional identity (order parameter).
 4.  **System Abstraction:** A standardized interface ensuring reproducibility and cross-domain mathematical formalism.
@@ -88,25 +88,3 @@ Europa formalizes the study of complex systems based on four pillars:
 * **Information Theory Refactoring:** Enhanced weighting engine for improved **transfer entropy** management.
 * **Manifold Visualization:** New tools for high-dimensional state projection and phase-space plotting.
 
- ---
- 
-**(IT)**
-
-## Neurodynamical Regime Intelligence
-
-Integrando i motori proprietari NeuroCore™, ASHI Core e HDE, il framework trasforma flussi di dati stocastici (EEG/fNIRS) in traiettorie deterministiche all'interno di un manifold funzionale.
-
-Identificazione dell'ancora omeostatica attraverso l'operatore $L$ ($\phi^* \approx 0.55$).
-
-Predictive Lead Time: Finestra di allerta precoce fino a 18.5 minuti per eventi critici (Epilessia/Parkinson).
-
-Cross-Dataset Validation: 
-Architettura normalizzata testata su 793 file (dataset EU, USA, India, Tanzania).
-
-Edge-Ready Latency: Elaborazione real-time con latenza inferiore a 22ms.
-
-Scientific Focus: Europa formalizza la rottura della simmetria nei sistemi dinamici, offrendo una metrica universale della stabilità neurale indipendente dall'hardware di acquisizione.
-
----
-
-> **Scientific Note:** Europa is built for researchers who need to transform noisy biological time-series into interpretable, mathematically sound dynamical models.
