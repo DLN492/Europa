@@ -73,7 +73,7 @@ The adaptive engine optimizes metric weights to maximize **temporal convergence*
 
 Europa formalizes the study of complex systems based on four pillars:
 
-1.  **Latent Functional Regime (lambda(t):** A time-dependent representation of system state dynamics.
+1.  **Latent Functional Regime (lambda(t)):** A time-dependent representation of system state dynamics.
 2.  **Universal Metrics:** Pipeline-independent quantitative descriptors (physical observables).
 3.  **Adaptive Signature:** A weighted aggregation representing the functional identity (order parameter).
 4.  **System Abstraction:** A standardized interface ensuring reproducibility and cross-domain mathematical formalism.
