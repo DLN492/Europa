@@ -1,8 +1,4 @@
-# Europa Framework (v4.0-Core-Validation)
-
-[![Release](https://img.shields.io/badge/release-v4.0--Core--Validation-blue.svg)](https://github.com/DLNicoletti/europa/releases)
-[![Field](https://img.shields.io/badge/Field-Applied%20Physics%20%2F%20Complex%20Systems-orange.svg)](#)
-
+# Europa Framework 
 
 **NeuroCore™**  
 © 2026 Davide Luca Nicoletti
