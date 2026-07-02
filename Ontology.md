@@ -1,4 +1,4 @@
-# Europa – Adaptive Signature System v4.0
+# Europa – Adaptive Signature System
 
 ## 📘 Ontological Definition
 
