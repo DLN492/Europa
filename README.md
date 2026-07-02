@@ -78,13 +78,4 @@ Europa formalizes the study of complex systems based on four pillars:
 3.  **Adaptive Signature:** A weighted aggregation representing the functional identity (order parameter).
 4.  **System Abstraction:** A standardized interface ensuring reproducibility and cross-domain mathematical formalism.
 
----
-
-## Latest Release: v4.0-Core-Validation
-
-
-
-* **State Trajectory Optimization:** Improved convergence algorithms for $\lambda(t)$ tracking.
-* **Information Theory Refactoring:** Enhanced weighting engine for improved **transfer entropy** management.
-* **Manifold Visualization:** New tools for high-dimensional state projection and phase-space plotting.
 
