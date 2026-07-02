@@ -1,6 +1,0 @@
-NeuroCore™ 049200 – Europa Dataset Benchmark
-Europa – Adaptive Signature System v4.0
-© 2026 Davide Luca Nicoletti | Proprietary License – All Rights Reserved
-Europa is a computational framework for analyzing functional regimes in neurophysiological signals (EEG, iEEG, fNIRS, etc.). It provides pipeline-agnostic metrics and automated report generation (PDF/HTML) to support functional state assessment. FS, DV, FR, and MI metrics are currently under development; this repository provides the framework, not finalized results.
-The system implements an adaptive engine that generates stable, comparable signatures across datasets. Its ontology defines latent functional regimes (λ(t)), standardized metrics, and adaptive signatures, providing a formal, replicable structure for analysis, comparison, and integration of new datasets.
-Repository contents include the v4.0 Europa pipeline, multi-dataset examples, and automatically generated reports, serving as a foundation for future development and scientific validation.
