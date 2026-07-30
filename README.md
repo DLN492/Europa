@@ -1,77 +1,60 @@
-# Europa Framework 
+# EUROPA
+> A domain-agnostic computational platform for invariant structural analysis and stochastic regime tracking in complex systems.
 
-**NeuroCore™**  
-© 2026 Davide Luca Nicoletti
+[![Status](https://img.shields.io/badge/Status-Active%20Research-blue.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)]()
 
----
-
-## Core Concept
-
-<p align="center">
-  <img src="6185C53B-CA8D-43C0-BFFA-92D89F055399.gif" width="500">
-</p>
+**EUROPA** is a computational platform designed for the characterization of complex systems through the extraction of invariant functional signatures. The framework maps stochastic empirical signals into a feature manifold, enabling the identification of system trajectories within state space independent of microscopic noise or acquisition bias.
 
 ---
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://europa-9nfeavhieorjxhrpylm6sb.streamlit.app/)
+## 🔬 Physical Formalism & Core Transformation
 
-**Europa** is a computational platform designed for the characterization of **complex biological systems** through the extraction of invariant functional signatures. The framework maps stochastic empirical signals $X$ into a feature manifold $\Phi(X)$, enabling the identification of trajectories within the state space $\lambda(t)$.
+The framework transforms raw empirical multivariate data ($X$) into a structured feature representation via coarse-graining operators ($\Phi$):
 
----
-
-## Physical Formalism & Core Transformation
-
-The framework operates by transforming raw empirical data into a structured feature representation defined as:
-
-$$X \to \Phi(X)$$
+$$X \rightarrow \Phi(X)$$
 
 Where:
-* **$X$**: Multivariate empirical signals (e.g., EEG, fMRI, biophysical time-series).
-* **$\Phi$**: acts as a coarse-graining operator mapping microscopic fluctuations into mesoscopic observables
+* **$X$:** Multivariate empirical signals (e.g., biological time-series, rover telemetry, sensor arrays).
+* **$\Phi$:** Coarse-graining operator mapping microscopic fluctuations into mesoscopic observables.
 
-We model the evolution of the latent state $\lambda(t)$ through an effective stochastic dynamics of the form:
+We model the evolution of the latent state $\lambda(t)$ through an effective stochastic dynamics equation:
 
-$$
-\frac{d\lambda}{dt} = F(\lambda) + \eta(t)
-$$
+$$\frac{d\lambda}{dt} = F(\lambda) + \eta(t)$$
 
-where:
-* **$F(\lambda)$** represents the deterministic drift term governing the macroscopic evolution of the system.
-* **$\eta(t)$** is a stochastic term accounting for residual fluctuations after coarse-graining, assumed to be a zero-mean process with finite variance.
-
-
-This representation defines a feature space with inner product structure that encodes the structural fingerprints of latent functional regimes, allowing for the analysis of **system topology** independent of microscopic noise or acquisition bias.
-
-Europa enables a rigorous analysis of system dynamics through:
-
-* **Multi-dataset Invariant Loading:** Seamless ingestion of heterogeneous data while normalizing coupling constants.
-* **Pipeline-Agnostic Metrics:** Computation of universal quantitative descriptors independent of systematic preprocessing fluctuations.
-* **Stochastic Regime Tracking:** Monitoring of the time-dependent state variable $\lambda(t)$, representing the system’s trajectory between different functional attractors.
-* **Cross-System Comparative Analysis:** Visualization and comparison of dynamical manifolds across different populations or experimental conditions.
-* **Automated Analytical Reporting:** Generation of synthesis reports (PDF/HTML) effective thermodynamic analogies.
+* **$F(\lambda)$:** Deterministic drift term governing the macroscopic evolution of the system.
+* **$\eta(t)$:** Zero-mean stochastic term with finite variance accounting for residual fluctuations.
 
 ---
 
-## Adaptive Signature Model
+## ⚙️ Core Capabilities
 
-At the heart of the framework lies a dynamic weighting system based on the aggregation of universal metrics, aimed at identifying the **functional identity** of the system:
+* **Multi-Dataset Invariant Loading:** Seamless ingestion of heterogeneous data while normalizing coupling constants.
+* **Pipeline-Agnostic Metrics:** Computation of universal quantitative descriptors independent of systematic preprocessing fluctuations.
+* **Stochastic Regime Tracking:** Monitoring of the time-dependent state variable $\lambda(t)$, representing system transitions between functional attractors.
+* **Cross-System Comparative Analysis:** Visualization and comparison of dynamical manifolds across different populations or operational conditions.
+
+---
+
+## 🧬 Adaptive Signature Model
+
+EUROPA relies on a dynamic weighting system built on universal metrics to identify the functional identity of a system:
 
 * **FS (Functional Stability):** Analysis of residence time within local energy minima.
 * **DV (Dynamic Variability):** Quantification of fluctuations around the expected value (state variance).
 * **FR (Functional Resilience):** The system's ability to return to its original attractor following a perturbation.
 * **MI (Metric Integration):** The degree of coupling and mutual information between system variables.
 
-The adaptive engine optimizes metric weights to maximize **temporal convergence** and **cross-dataset invariance**, revealing underlying scaling laws.
+---
+
+## 🚀 Aerospace & Edge Applications
+
+Originally conceived for complex biological systems, EUROPA's invariant feature extraction maps seamlessly onto **safety-critical autonomous systems and space exploration** (such as planetary rovers or orbital probes):
+* **On-Board Edge Computing:** Lightweight, deterministic processing suitable for constrained hardware environments with limited telemetry bandwidth.
+* **Pre-Critical State Detection:** Monitoring latent state trajectories ($\lambda(t)$) to flag micro-anomalies, mechanical wear, or environmental shifts before structural failure occurs.
 
 ---
 
-## Computational Ontology
+## ⚖️ Disclaimer
 
-Europa formalizes the study of complex systems based on four pillars:
-
-1.  **Latent Functional Regime (lambda(t)):** A time-dependent representation of system state dynamics.
-2.  **Universal Metrics:** Pipeline-independent quantitative descriptors (physical observables).
-3.  **Adaptive Signature:** A weighted aggregation representing the functional identity (order parameter).
-4.  **System Abstraction:** A standardized interface ensuring reproducibility and cross-domain mathematical formalism.
-
-
+Intended strictly for computational research, structural analysis, and experimental validation.
